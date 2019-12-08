@@ -1,0 +1,24 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background:#222;
+  color:#ccc
+}
+
+h1,a {
+  color: #009900;
+}
+#out{min-height:12em;font-family:Monospace;font-size:16px}
+.feats{border:2px solid #111}
+.b{background:var(--c);color:#000;padding:1px}
+.gold{--c:#ffb621}
+.silver{--c:#7c7b7b}
+.bronze{--c:#ffa269}
+.c{background:var(--c);color:#fff;padding:1px}
+.time-0{--c:#000}
+.time-1{--c:#111}
+.time-2{--c:#222}
+.time-3{--c:#333}
+.time-4{--c:#444}
