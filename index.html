@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file-->
+    <script src="data-c.js"></script>
+    <script src="aoc-global.js" defer></script>
+  </head>
+  <body>
+    <h1>AoC [Unofficial] Global Stats</h1>
+    
+    <p>
+      Currently parsed up to day 7
+    </p>
+    <p>
+      Special thanks to discord user mattr555#7351 for letting me know parts 1 and 2 were backwards. Find me @ Uni☆#8610
+    </p>
+    <p>
+      Ranks start from #0. Top 100 has more stats!
+    </p>
+    <!--<p>
+      Type name (regex): <input type="search" />
+    </p>-->
+    <div id="out"></div>
+    <p>
+      Links
+      <ul><a href="1.js">1.js</a>: parse part 1 (run on per-day leaderboards page in console)</ul>
+      <ul><a href="2.js">2.js</a>: parse part 2</ul>
+      <ul><a href="data.js">data.js</a>: data for individual parts, raw (<code>global.parts</code>)</ul>
+      <ul><a href="data-c.js">data-c.js</a>: data compiled into users and individual parts
+        referring to users (<code>global.users</code> and <code>global.parts</code>)</ul>
+      <ul><a href="compile.js">compile.js</a>: transforms the things in <code>data.js</code> into <code>data-c.js</code></ul>
+      <ul><a href="aoc-global.js">aoc-global.js</a>: draws the table on this page using <code>data-c.js</code></ul>
+    </p>
+    <p>
+      TBD
+      <ul>Boards for previous years as well</ul>
+      <ul>More stats</ul>
+    </p>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
